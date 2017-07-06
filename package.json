@@ -1,12 +1,18 @@
 {
   "name": "npmstat",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "npm packages downloads stats",
   "main": "index.js",
   "repository": "git@github.com:bukinoshita/npmstat.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
-  "keywords": ["npm", "package", "downloads", "stat", "stats"],
+  "keywords": [
+    "npm",
+    "package",
+    "downloads",
+    "stat",
+    "stats"
+  ],
   "scripts": {
     "test": "xo && ava"
   },
