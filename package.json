@@ -1,0 +1,33 @@
+{
+  "name": "npmstat",
+  "version": "0.0.0",
+  "description": "npm packages downloads stats",
+  "main": "index.js",
+  "repository": "git@github.com:bukinoshita/npmstat.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "keywords": ["npm", "package", "downloads", "stat", "stats"],
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "map-arr": "^1.0.0",
+    "npm-user-packages": "^3.0.0",
+    "sort-arr": "^0.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "esnext": true,
+    "rules": {
+      "object-curly-spacing": 0,
+      "no-return-assign": 0,
+      "array-callback-return": 0
+    }
+  }
+}
