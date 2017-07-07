@@ -34,6 +34,12 @@ Required
 npm username
 
 
+
+## Related
+
+- [npmstat-cli](https://github.com/bukinoshita/npmstat-cli) — CLI for this module
+
+
 ## License
 
 MIT © [Bu Kinoshita](https://bukinoshita.io)
