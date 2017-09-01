@@ -121,6 +121,12 @@ npmstat.getDownloads('react-cookies', { type: 'range' })
 // => { package: 'react-cookies', downloads: [{ downloads: 100, day: '2017-06-8'}, ...], ... }
 ```
 
+
+## Related
+
+- [npmstat-cli](https://github.com/bukinoshita/npmstat-cli) — CLI for this module
+
+
 ## License
 
 MIT © [Bu Kinoshita](https://bukinoshita.io)
