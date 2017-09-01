@@ -54,7 +54,7 @@ npmstat.getPackage('npmstat')
 Returns a `promise`<br/>
 Get user npm pkgs information
 
-### username
+#### username
 
 Type: `string`<br/>
 Required
@@ -73,7 +73,7 @@ npmstat.getPackages('bukinoshita')
 Returns a `promise`<br/>
 Get npm package downloads count
 
-### packageName
+#### packageName
 
 Type: `string`<br/>
 Required
@@ -87,11 +87,11 @@ npmstat.getDownloads('react-cookies')
 // => { downloads: 19271, package: 'react-cookies', ... }
 ```
 
-#### options
+### options
 
 Type: `object`<br/>
 
-##### range
+#### range
 
 Type: `string`<br/>
 Default: `last-month`<br/>
@@ -108,7 +108,7 @@ npmstat.getDownloads('react-cookies', { range: 'last-week' })
 // => { downloads: 19271, package: 'react-cookies', ... }
 ```
 
-##### type
+#### type
 
 Type: `string`<br/>
 Default: `point`<br/>
