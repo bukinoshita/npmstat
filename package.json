@@ -1,12 +1,19 @@
 {
   "name": "npmstat",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "npm package stats",
   "main": "index.js",
   "repository": "git@github.com:bukinoshita/npmstat.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
-  "keywords": ["npm", "package", "downloads", "stat", "stats", "packages"],
+  "keywords": [
+    "npm",
+    "package",
+    "downloads",
+    "stat",
+    "stats",
+    "packages"
+  ],
   "scripts": {
     "test": "xo && ava"
   },
@@ -20,7 +27,9 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "extends": ["prettier"],
+    "extends": [
+      "prettier"
+    ],
     "rules": {
       "unicorn/catch-error-name": 0
     }
