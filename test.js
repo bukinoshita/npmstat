@@ -6,13 +6,13 @@ import m from './'
 test('get user packages', async t => {
   const pkgs = await m.getPackages('bukinoshita')
 
-  t.true(pkgs.length > 80)
+  t.true(pkgs.total > 80)
 })
 
 test('dont get user packages', async t => {
-  const error = await m.getPackages(1)
+  const error = await m.getPackages('8273973289yejsdew')
 
-  t.is(error.message, 'Expected a `string`, got `number`')
+  t.is(error.total, 0)
 })
 
 test('get package', async t => {
